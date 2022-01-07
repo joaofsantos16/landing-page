@@ -1,4 +1,61 @@
+header, footer{
+    color: #e5e7eb;
+    background: #1F2937;
+}
+
 .header-text{
-    color: #e5e7eb; ;
     font-size: 18px;
+}
+
+.hero{
+
+}
+
+.hero-image-placeholder{
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    /* need to align to the middle */
+}
+
+.button{
+    background-color:#3882F6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 6px 30px;
+    text-align: center;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.button:hover{
+    background-color: #0159e6;
+    box-shadow: 0px 0px 8px -6px #e5e7eb;
+}
+
+.h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
+    width: 60%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.flex-items{
+    border: 2px solid red;
+    display: block;
+    flex-grow: 0;
 }
